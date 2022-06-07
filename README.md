@@ -1,6 +1,6 @@
 # az-labservices
 
-Azure CLI Extension for Lab Services v2
+[![Create Release](https://github.com/colbylwilliams/az-labservices/actions/workflows/release.yml/badge.svg)](https://github.com/colbylwilliams/az-labservices/actions/workflows/release.yml)
 
 Microsoft Azure CLI Lab Services (v2) Extension.
 
@@ -17,13 +17,13 @@ az extension add --source https://github.com/colbylwilliams/az-labservices/relea
 To update Azure CLI Lab Services extension to the latest version:
 
 ```sh
-az Lab Services upgrade
+az labservices upgrade
 ```
 
 or for the latest pre-release version:
 
 ```sh
-az Lab Services upgrade --pre
+az labservices upgrade --pre
 ```
 
 ## Commands
