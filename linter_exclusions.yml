@@ -1,0 +1,26 @@
+labservices lab create:
+  parameters:
+    additional_capabilities:
+      rule_exclusions:
+        - option_length_too_long
+labservices lab update:
+  parameters:
+    additional_capabilities:
+      rule_exclusions:
+        - option_length_too_long
+labservices labplan create:
+  parameters:
+    default_auto_shutdown_profile:
+      rule_exclusions:
+        - option_length_too_long
+    default_connection_profile:
+      rule_exclusions:
+        - option_length_too_long
+labservices labplan update:
+  parameters:
+    default_auto_shutdown_profile:
+      rule_exclusions:
+        - option_length_too_long
+    default_connection_profile:
+      rule_exclusions:
+        - option_length_too_long
